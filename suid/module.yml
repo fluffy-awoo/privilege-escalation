@@ -311,9 +311,9 @@ challenges:
       name: strings
     - id: su
       name: su
-    - id: sysctl
-      name: sysctl
-      privileged: true
+    # - id: sysctl
+    #   name: sysctl
+    #   privileged: true
     - id: tac
       name: tac
     - id: tail
@@ -330,7 +330,7 @@ challenges:
       name: tftp
     - id: tic
       name: tic
-      image: pwmcollege/challenge-suid-legacy
+      image: ubuntu:20.04
     - id: time
       name: time
     - id: timeout
