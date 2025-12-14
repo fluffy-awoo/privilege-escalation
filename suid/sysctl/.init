@@ -7,3 +7,4 @@ mkdir -p /challenge/bin
 ln -sf /usr/sbin/sysctl /challenge/bin/sysctl
 
 chmod u+s /usr/sbin/sysctl
+mount -o remount,rw /proc/sys
