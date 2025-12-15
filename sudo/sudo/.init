@@ -13,3 +13,4 @@ EOF
 chmod 440 /etc/sudoers.d/hacker
 
 chmod u+s /usr/bin/sudo
+passwd -d hacker
