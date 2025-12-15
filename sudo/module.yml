@@ -95,19 +95,19 @@ challenges:
       name: cdist
     - id: certbot
       name: certbot
-    - id: check_by_ssh
+    - id: check-by-ssh
       name: check_by_ssh
-    - id: check_cups
+    - id: check-cups
       name: check_cups
-    - id: check_log
+    - id: check-log
       name: check_log
-    - id: check_memory
+    - id: check-memory
       name: check_memory
-    - id: check_raid
+    - id: check-raid
       name: check_raid
-    - id: check_ssl_cert
+    - id: check-ssl-cert
       name: check_ssl_cert
-    - id: check_statusfile
+    - id: check-statusfile
       name: check_statusfile
     - id: chmod
       name: chmod
@@ -193,7 +193,7 @@ challenges:
       name: dpkg
     - id: dvips
       name: dvips
-    - id: easy_install
+    - id: easy-install
       name: easy_install
     - id: ed
       name: ed
