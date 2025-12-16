@@ -5,6 +5,7 @@ find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
 ln -sf /usr/bin/gcore /challenge/bin/gcore
+ln -sf /usr/bin/gdb /challenge/bin/gdb
 ln -sf /usr/bin/sudo /challenge/bin/sudo
 
 cat > /etc/sudoers.d/hacker <<'EOF'
@@ -15,3 +16,7 @@ chmod 440 /etc/sudoers.d/hacker
 
 chmod u+s /usr/bin/sudo
 passwd -d hacker
+
+env -i FLAG="$(tr -d '\n' < /flag)" /usr/bin/sleep infinity &
+echo $! > /challenge/pid
+chmod 0444 /challenge/pid
