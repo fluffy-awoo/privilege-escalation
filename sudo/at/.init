@@ -15,3 +15,6 @@ chmod 440 /etc/sudoers.d/hacker
 
 chmod u+s /usr/bin/sudo
 passwd -d hacker
+
+mkdir -p /run /var/spool/at
+/usr/sbin/atd &
