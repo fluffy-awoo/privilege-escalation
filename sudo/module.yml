@@ -273,8 +273,8 @@ challenges:
       name: hping3
     - id: iconv
       name: iconv
-    - id: iftop
-      name: iftop
+    # - id: iftop
+    #   name: iftop
     - id: install
       name: install
     - id: ionice
@@ -291,8 +291,8 @@ challenges:
       name: joe
     - id: join
       name: join
-    - id: journalctl
-      name: journalctl
+    # - id: journalctl
+    #   name: journalctl
     - id: jq
       name: jq
     - id: jrunscript
@@ -327,8 +327,8 @@ challenges:
       name: links
     - id: ln
       name: ln
-    - id: loginctl
-      name: loginctl
+    # - id: loginctl
+    #   name: loginctl
     - id: logsave
       name: logsave
     - id: look
@@ -587,8 +587,8 @@ challenges:
       name: sysctl
     - id: systemctl
       name: systemctl
-    - id: systemd-resolve
-      name: systemd-resolve
+    # - id: systemd-resolve
+    #   name: systemd-resolve
     - id: tac
       name: tac
     - id: tail
@@ -621,16 +621,16 @@ challenges:
       name: tic
     - id: time
       name: time
-    - id: timedatectl
-      name: timedatectl
+    # - id: timedatectl
+    #   name: timedatectl
     - id: timeout
       name: timeout
     - id: tmate
       name: tmate
     - id: tmux
       name: tmux
-    - id: top
-      name: top
+    # - id: top
+    #   name: top
     - id: torify
       name: torify
     - id: torsocks
