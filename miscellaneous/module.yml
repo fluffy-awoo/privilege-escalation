@@ -2,9 +2,12 @@ name: Miscellaneous
 challenges:
     - id: the-early-bird
       name: The Early Bird
+      required: false
       image: pwmcollege/challenge-web
     - id: tic-revenge
       name: Tic Revenge
+      required: false
       image: pwmcollege/challenge-suid
     - id: cryostasis
       name: Cryostasis
+      required: false
