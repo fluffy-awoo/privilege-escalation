@@ -9,6 +9,7 @@ ln -sf /usr/bin/sudo /challenge/bin/sudo
 
 if [ "$(head -n 1 /run/dojo/sys/workspace/privileged)" = "0" ]; then
     cat > /etc/sudoers.d/hacker <<-'EOF'
+    Defaults:hacker env_keep += "CODEX_HOME"
 	hacker ALL=(root) NOPASSWD: /usr/bin/codex
 	EOF
 
