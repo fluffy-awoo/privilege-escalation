@@ -9,4 +9,3 @@ modules:
     - id: sudo
     - id: capabilities
     - id: cve
-    - id: miscellaneous
