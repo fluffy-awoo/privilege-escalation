@@ -613,8 +613,8 @@ challenges:
       name: tdbtool
     - id: tee
       name: tee
-    # - id: telnet
-    #   name: telnet
+    - id: telnet
+      name: telnet
     - id: tex
       name: tex
     - id: tftp
